@@ -1,5 +1,5 @@
 function findMatching(arr, str){
-  const newArr = [];
+  let newArr = [];
   for (const elem of arr){
     if (elem === str) { newArr.push(elem) }
   }
