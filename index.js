@@ -1,5 +1,5 @@
 function findMatching(arr, str){
-  return arr.filter( function(elem){return elem.toUpperCase === str.toUpperCase;} );
+  return arr.filter( function(elem){return elem.toUpperCase() === str.toUpperCase();} );
 }
 
 function fuzzyMatch(arr, str){
