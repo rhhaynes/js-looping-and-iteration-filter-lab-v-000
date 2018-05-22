@@ -3,7 +3,7 @@ function findMatching(arr, str){
 }
 
 function fuzzyMatch(arr, str){
-  
+  arr.filter( function(elem){return elem.startsWith(str)} )
 }
 
 function matchName(){
