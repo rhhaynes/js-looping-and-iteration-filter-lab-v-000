@@ -11,8 +11,13 @@ function fuzzyMatch(arr, str){
     function(elem){
       return elem.startsWith(str);
     }
-  )
+  );
 }
 
-function matchName(){
+function matchName(arr, str){
+  return arr.filter(
+    function(obj){
+      return obj.name === str;
+    }
+  );
 }
