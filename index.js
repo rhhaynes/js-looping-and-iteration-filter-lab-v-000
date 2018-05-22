@@ -1,5 +1,5 @@
-function findMatching(arr, str){
-  arr.filter( function(elem){return elem === str;} )
+function findMatching(drivers, str){
+  drivers.filter( function(elem){return elem === str;} )
 }
 
 function fuzzyMatch(arr, str){
